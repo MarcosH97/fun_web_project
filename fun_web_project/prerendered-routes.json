@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/fun_web_project": {},
+    "/fun_web_project/birthday": {},
+    "/fun_web_project/countdown": {},
+    "/fun_web_project/login": {}
+  }
+}
