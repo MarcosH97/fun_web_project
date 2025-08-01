@@ -1,0 +1,15 @@
+<body>
+  <div class="login-container">
+    <h2>Bienvenido!</h2>
+    <p>¿Es su cumpleaños? Por favor, complete el formulario.</p>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input type="text" id="name" formControlName="name" placeholder="Nombre" required>
+      </div>
+      <div class="form-group">
+        <input type="date" id="birthday" formControlName="birthday" required>
+      </div>
+      <button type="submit" [disabled]="loginForm.invalid">COMPROBAR</button>
+    </form>
+  </div>
+</body>

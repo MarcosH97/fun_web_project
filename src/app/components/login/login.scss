@@ -1,0 +1,78 @@
+.login-container {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F052%2F873%2F824%2Fsmall_2x%2Fbright-golden-bokeh-lights-create-a-vibrant-and-festive-holiday-background-photo.jpg&f=1&nofb=1&ipt=f9d7a1102dbb3c264205f28044a5576516d7236bac4e6ed092232f9f98619d4c');
+  background-size: cover;
+  background-color: #ffffff;
+  background-position: center;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px #6b6b6b80;
+  width: 400px;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+h2 {
+  color: #fff6e9;
+  margin-bottom: 0.5rem;
+  font-size: 2.0rem;
+}
+
+p {
+  color: #424141;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"], input[type="date"] {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #e0e0e0;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Estilo para el icono del calendario */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0.8);
+    cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+button:not(:disabled):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+}

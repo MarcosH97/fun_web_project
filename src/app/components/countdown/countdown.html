@@ -1,0 +1,24 @@
+<body>
+  <div class="countdown-container">
+    <h2>Hola, <span class="name">{{ userName }}</span></h2>
+    <p>Tu próximo cumpleaños no es hoy, ¡pero la cuenta regresiva ha comenzado!</p>
+    <div class="timer">
+      <div class="time-box">
+        <span class="value">{{ timeLeft.days }}</span>
+        <span class="label">Días</span>
+      </div>
+      <div class="time-box">
+        <span class="value">{{ timeLeft.hours }}</span>
+        <span class="label">Horas</span>
+      </div>
+      <div class="time-box">
+        <span class="value">{{ timeLeft.minutes }}</span>
+        <span class="label">Minutos</span>
+      </div>
+      <div class="time-box">
+        <span class="value">{{ timeLeft.seconds }}</span>
+        <span class="label">Segundos</span>
+      </div>
+    </div>
+  </div>
+</body>
